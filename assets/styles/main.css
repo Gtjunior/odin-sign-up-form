@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("../fonts/Norse-Bold.otf");
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.sign-up-title {
+    font-family: "Norse-Bold";
+    color: #fff;
+    position: relative;
+}
+
+.sign-up-title-overlay {
+    background-color: rgba(0,0,0, 0.5);
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+    position: relative;
+    top: 200px;
+}
+
+.odin-img {
+    max-width: 100px;
+}
+
+.sign-up {
+    display: flex;
+
+    height: 100vh;
+}
+
+.sign-up-title {
+    flex: 1 1 500px;
+    background-image: url("../images/form-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up-form {
+    flex: 1 2 500px;
+    align-self: center;
+    font-weight: bold;
+}
+
+.sign-up-form .description, legend {
+    font-size: 1.5rem;
+}
+
+.form {
+    padding-bottom: 2rem;
+}
+
+.form fieldset {
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0 7px 5px #ededed;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.form-field {
+    margin-top: 1rem;
+}
+
+.form label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.1em;
+}
+
+.form input {
+    width: 100%;
+    height: 2em;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.form-submit-btn {
+    background-color: #596D48;
+    color: #fff;
+    padding: 1em 3em;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #ededed;
+    margin: 1rem 0;
+}
+
+.log-in {
+    color: #596D48;
+}
